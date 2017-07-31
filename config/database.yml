@@ -1,0 +1,38 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: chalkboard_import
+  pool: 5
+  username: root
+  password: root
+  socket: /var/run/mysqld/mysqld.sock
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: chalkboard_import
+  pool: 5
+  username: root
+  password: root
+  socket: /var/run/mysqld/mysqld.sock
+
+#   adapter: mysql2
+#   encoding: utf8
+#   reconnect: false
+#   database: chalboard_import
+#   pool: 5
+#   username: root
+#   password: root
+#   socket: /var/run/mysqld/mysqld.sock
+
+# production:
+#   adapter: mysql2
+#   encoding: utf8
+#   reconnect: false
+#   database: chalboard_import
+#   pool: 5
+#   username: root
+#   password: root
+#   socket: /var/run/mysqld/mysqld.sock

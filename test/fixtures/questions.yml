@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  question: MyString
+  choice_a: MyString
+  choice_b: MyString
+  choice_c: MyString
+  choice_d: MyString
+  answer: MyString
+  module_test: MyString
+  subject: MyString
+  number: 1
+  module_test_name: MyString
+  timer: 1
+  solution: MyText
+
+two:
+  question: MyString
+  choice_a: MyString
+  choice_b: MyString
+  choice_c: MyString
+  choice_d: MyString
+  answer: MyString
+  module_test: MyString
+  subject: MyString
+  number: 1
+  module_test_name: MyString
+  timer: 1
+  solution: MyText
